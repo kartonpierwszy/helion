@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 1. Rozgrzewka html
+Wskaż błędy w poniższym kodzie. Odpowiedź uzasadnij. -->
+
+    <!-- ok -->
+    <div id="idik1" class="klasa1 klasa2">lorem</div>
+
+    <!-- element 'input' jest elementem 'pustym' i nie potrzebuje znacznika zamykającego -->
+    <input name=”pole1”></input>
+
+    <!-- poniżej identyfikator 'idik1' został użyty 2gi raz na tej stronie, czego robić nie wolno. Identyfikatory ID powinny być unikalne, użyte 1en raz na stronie  -->
+    <div id="idik1" class="klasa3">ipsum</div>
+
+    <!-- poniżej niepotrzebnie powtórzony atrybut 'class'. Obie klasy 'klasa4' i 'klasa5' należy zapisać w formie class="klasa4 klasa5" -->
+    <div id="idik2" class="klasa4" class="klasa5">dolor amet</div>
+
+    <!-- poniżej mamy element blokowy <p>, który nie może zawierać w sobie innego elementu blokowego, czyli także elementu <p> -->
+    <p>tekst</br>akapitu
+    <p>zagnieżdzony P</p>
+    </p>
+
+</body>
+
+</html>
